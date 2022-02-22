@@ -1,5 +1,6 @@
 import React from "react";
 import intro from '../../images/intro.png';
+import Typewriter from "typewriter-effect";
 
 export default function About() {
     return (
@@ -10,18 +11,27 @@ export default function About() {
                 </div>
                 <div className="grid flex-grow place-items-center text-left">
                     <div className="mockup-code">
-                          <pre data-prefix=">">
+                        <pre data-prefix=">">
                             <code>export default function Introduce()</code>
-                          </pre>
-                          <pre data-prefix=">">
-                            <code>Hi, I'm Lita🤭</code>
-                          </pre>
-                          <pre data-prefix=">">
+                        </pre>
+                        <pre className="text-center text-xl">
+                                <Typewriter
+                                    onInit={(typewriter)=> {
+                                    typewriter
+                                    .typeString("Heyho")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("Hi! I'm Lita")
+                                    .start();
+                                    }}
+                                />
+                        </pre><br/>
+                        <pre data-prefix=">">
                             <code>I'm a web developer specialized in Front-End development</code>
-                          </pre>
-                          <pre data-prefix=">">
+                        </pre>
+                        <pre data-prefix=">">
                               <code>And I love CATS!😸</code>
-                          </pre>
+                        </pre>
                     </div>
                 </div>
             </div>

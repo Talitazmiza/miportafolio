@@ -5,7 +5,7 @@ import About from "./About";
 
 export default function Home() {
     return (
-        <div className="flex flex-col h-screen w-screen bg-white">
+        <div className="flex flex-col h-screen bg-white">
             <Navbar />
             <About />
         </div>

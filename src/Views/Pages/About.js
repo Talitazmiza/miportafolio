@@ -4,39 +4,43 @@ import Typewriter from "typewriter-effect";
 
 export default function About() {
     return (
-        <div className="flex flex-col bg-white">
-            <div className="flex flex-row">
-                <div className="grid flex-grow h-auto card place-items-center">
-                    <img src={intro} alt="me" className="object-cover h-96 w-96" />
+        <div className="mx-auto bg-white overflow-none">
+            <div className="grid grid-cols-1 md:grid-cols-2 divide-x place-items-center">
+                <div className="md:flex lg:overflow-y-visible">
+                    <div className="lg:shrink-0">
+                        <img src={intro} alt="me" className="object-cover h-96 w-96 md:h-96 md:w-96" />
+                    </div>
                 </div>
-                <div className="grid flex-grow place-items-center text-left">
-                    <div className="mockup-code">
-                        <pre data-prefix=">">
-                            <code>export default function Introduce()</code>
-                        </pre>
-                        <pre className="text-center text-xl">
+                <div className="md:flex lg:overflow-y-visible">
+                    <div className="flex text-left">
+                        <div className="mockup-code">
+                            <pre data-prefix=">">
+                                <code>export default function Introduce()</code>
+                                </pre>
+                            <pre className="text-center text-xl">
                                 <Typewriter
                                     onInit={(typewriter)=> {
                                     typewriter
-                                    .typeString("Heyho")
-                                    .pauseFor(1000)
-                                    .deleteAll()
-                                    .typeString("Hi! I'm Lita")
-                                    .start();
+                                        .typeString("Heyho")
+                                        .pauseFor(1000)
+                                        .deleteAll()
+                                        .typeString("Hi! I'm Lita")
+                                        .start();
                                     }}
                                 />
-                        </pre><br/>
-                        <pre data-prefix=">">
-                            <code>I'm a web developer specialized in Front-End development</code>
-                        </pre>
-                        <pre data-prefix=">">
-                              <code>And I love CATS!😸</code>
-                        </pre>
+                                </pre><br/>
+                            <pre data-prefix=">">
+                                <code>I'm a web developer specialized in Front-End development</code>
+                            </pre>
+                            <pre data-prefix=">">
+                                <code>And I love CATS!😸</code>
+                            </pre>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="place-items-center bg-white">
-                <div className="indicator h-auto border-4">
+            <div className="bg-white place-items-center p-4">
+                <div className="indicator border-2">
                     <div className="indicator-item indicator-bottom">
                         <button className="btn ">
                             <a href="https://wa.me/82251718018">
@@ -44,7 +48,7 @@ export default function About() {
                             </a>
                         </button>
                     </div>
-                    <div className="border card ">
+                    <div className="card">
                         <div className="card-body ">
                             <h2 className="card-title text-black text-2xl md:underline">Tech Stack</h2>
                             <br />
@@ -63,5 +67,6 @@ export default function About() {
                 </div>
             </div>
         </div>
+
     )
 }

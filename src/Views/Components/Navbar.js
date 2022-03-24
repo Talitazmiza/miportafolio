@@ -1,6 +1,6 @@
 import React from "react";
 import '../../App.css';
-import resume from '../../../src/docs/resume.pdf';
+import resume from '../../../src/docs/Curriculum Vitae - Talita Iza Nurazmi.pdf';
 import 'flowbite';
 
 export default function Navbar() {
@@ -43,7 +43,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <button
-                                className="btn btn-ghost btn-sm block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">Proyectos</button>
+                                className="btn btn-ghost btn-sm btn-disabled block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">Proyectos</button>
                         </li>
                         <li>
                             <button
@@ -55,7 +55,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <button
-                                className="btn btn-ghost btn-sm block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">Contacto</button>
+                                className="btn btn-ghost btn-sm btn-disabled block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">Contacto</button>
                         </li>
                     </ul>
                 </div>

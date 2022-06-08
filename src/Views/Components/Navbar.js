@@ -1,6 +1,6 @@
 import React from "react";
 import '../../App.css';
-import resume from '../../../src/docs/Curriculum Vitae-Talita Iza Nurazmi.pdf';
+import resume from '../../../src/docs/Talita Iza Nurazmi-Curriculum Vitae.pdf';
 import 'flowbite';
 
 export default function Navbar() {

@@ -38,6 +38,11 @@ export default function Navbar() {
                                 className="btn btn-ghost btn-sm block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">
                                 <a href="/proyectos">Proyectos</a></button>
                         </li>
+                        {/*<li>*/}
+                        {/*    <button*/}
+                        {/*        className="btn btn-ghost btn-sm block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">*/}
+                        {/*        <a href="/proyectos">Otros Proyectos</a></button>*/}
+                        {/*</li>*/}
                         <li>
                             <button
                                 className="btn btn-ghost btn-sm block py-2 pr-4 pl-3 text-red-400 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-blue-600">

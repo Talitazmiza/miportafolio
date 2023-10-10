@@ -14,30 +14,47 @@ export default function About() {
                         <img src={intro} alt="me" className="object-cover h-96 w-96 md:h-96 md:w-96" />
                     </div>
                 </div>
-                <div className="md:flex lg:overflow-y-visible">
-                    <div className="flex text-left">
+                <div className="w-3/4">
+                    <div className="text-left">
                         <div className="mockup-code">
                             <pre data-prefix=">">
                                 <code>export default function Introduce()</code>
-                                </pre>
-                            <pre className="text-center text-xl">
-                                <Typewriter
-                                    onInit={(typewriter)=> {
-                                    typewriter
-                                        .typeString("Nice Meeting You")
-                                        .pauseFor(1000)
-                                        .deleteAll()
-                                        .typeString("Hi! I'm Lita")
-                                        .start();
-                                    }}
-                                />
-                                </pre><br/>
+                            </pre>
                             <pre data-prefix=">">
-                                <code>I am a Front End Developer</code>
+                                <code>Nice meeting you</code>
+                            </pre>
+                            <pre data-prefix=">">
+                                <code>Hi! It's Lita, wbu?</code>
                             </pre>
                             <pre data-prefix=">">
                                 <code>And I love CATS!😸</code>
                             </pre>
+                            <pre className="text-center text-xl">
+                                <Typewriter
+                                    options={{
+                                        autoStart: true,
+                                        loop: true,
+                                    }}
+                                    onInit={(typewriter)=> {
+                                    typewriter
+                                        .typeString("I am a Front End Developer")
+                                        .pauseFor(1000)
+                                        .deleteAll()
+                                        .typeString("Sometimes do code")
+                                        .pauseFor(1000)
+                                        .deleteAll()
+                                        .typeString("Sometimes design")
+                                        .pauseFor(1000)
+                                        .deleteAll()
+                                        .typeString("Sometimes volunteering")
+                                        .pauseFor(1000)
+                                        .deleteAll()
+                                        .typeString("sometimes lie down and play games")
+                                        .pauseFor(1000)
+                                        .start();
+                                    }}
+                                />
+                                </pre><br/>
                         </div>
                     </div>
                 </div>
@@ -70,6 +87,5 @@ export default function About() {
                 </div>
             </div>
         </div>
-
     )
 }

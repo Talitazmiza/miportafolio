@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Views/Sections/Home';
 import Project from './Views/Sections/Project';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./Views/Sections/About";
 
 function App() {
     return (

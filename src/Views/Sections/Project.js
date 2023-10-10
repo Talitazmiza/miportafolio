@@ -9,6 +9,7 @@ import etapens from '../../images/etapens.png';
 import etapenscode from '../../images/etapenscode.png';
 import midwife from '../../images/midwife.png';
 import pos from '../../images/pos.png';
+import simbidan from '../../images/simbidan.png';
 
 export default function Project() {
     return (
@@ -124,6 +125,18 @@ export default function Project() {
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Point Of Sales</h5>
                             </a>
                             <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Flutter</span>
+                        </div>
+                    </div>
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <a href="#">
+                            <img className="rounded-t-lg" src={simbidan} alt=""/>
+                        </a>
+                        <div className="p-5">
+                            <a href="https://sim-bidan.vercel.app/">
+                                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Midwife Information System</h5>
+                            </a>
+                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">React.js</span>
+                            <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Tailwind CSS</span>
                         </div>
                     </div>
                 </div>

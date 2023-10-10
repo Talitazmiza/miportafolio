@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 export default function About() {
     return (
-        <div className="bg-white overflow-none">
+        <div className="w-full h-screen lg:bg-white md:bg-red-600 overflow-hidden">
             <div className="animate-[wiggle_1s_ease-in-out_infinite]">
                 <h1 className="text-2xl">🔥 under construction 🔥</h1>
             </div>
@@ -49,6 +49,9 @@ export default function About() {
                                         .typeString("Sometimes volunteering")
                                         .pauseFor(1000)
                                         .deleteAll()
+                                        .typeString("Sometimes analyst system")
+                                        .pauseFor(1000)
+                                        .deleteAll()
                                         .typeString("sometimes lie down and play games")
                                         .pauseFor(1000)
                                         .start();
@@ -62,7 +65,7 @@ export default function About() {
             <div className="bg-white place-items-center p-4">
                 <div className="indicator border-2">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn ">
+                        <button className="btn">
                             <a href="https://wa.me/82251718018">
                                 Hire Me
                             </a>

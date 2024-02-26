@@ -10,10 +10,11 @@ import etapenscode from '../../images/etapenscode.png';
 import midwife from '../../images/midwife.png';
 import pos from '../../images/pos.png';
 import simbidan from '../../images/simbidan.png';
+import bustour from '../../images/bustour.png'
 
 export default function Project() {
     return (
-        <div className="w-full h-screen lg:bg-white md:bg-red-600 overflow-hidden">
+        <div className="w-full bg-white">
             <div className="container md:mx-auto bg-white px-4 text-black">
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4">
                     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 md:shrink-0">
@@ -106,7 +107,7 @@ export default function Project() {
                             <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Tailwind CSS</span>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
                         <a href="https://www.figma.com/proto/WyhNRDVeCqlHUjxUuL1Ahr/E-Bidan?page-id=0%3A1&type=design&node-id=708-47&viewport=35648%2C5206%2C1.52&t=25Xon7CUDeYuLXix-1&scaling=min-zoom&starting-point-node-id=708%3A47&mode=design">
                             <img className="rounded-t-lg" src={midwife} alt=""/>
                         </a>
@@ -117,7 +118,7 @@ export default function Project() {
                             <span className="bg-green-100 text-purple-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Figma</span>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-10">
                         <a href="#">
                             <img className="rounded-t-lg" src={pos} alt=""/>
                         </a>
@@ -128,7 +129,7 @@ export default function Project() {
                             <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Flutter</span>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-10">
                         <a href="https://sim-bidan.vercel.app/">
                             <img className="rounded-t-lg" src={simbidan} alt=""/>
                         </a>
@@ -139,6 +140,20 @@ export default function Project() {
                             </a>
                             <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">React.js</span>
                             <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-10">
+                        <a href="https://bus-tourism2.vercel.app/">
+                            <img className="rounded-t-lg" src={bustour} alt=""/>
+                        </a>
+                        <div className="p-5">
+                            <a href="https://bus-tourism2.vercel.app/">
+                                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Bus Travel Company Profile and Management</h5>
+                                <h5 className="text-sm text-red-700">(on going)</h5>
+                            </a>
+                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">React.js</span>
+                            <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Tailwind CSS</span>
+                            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">Laravel</span>
                         </div>
                     </div>
                 </div>

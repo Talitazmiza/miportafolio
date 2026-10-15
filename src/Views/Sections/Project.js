@@ -142,20 +142,6 @@ export default function Project() {
                             <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Tailwind CSS</span>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-10">
-                        <a href="https://bus-tourism2.vercel.app/">
-                            <img className="rounded-t-lg" src={bustour} alt=""/>
-                        </a>
-                        <div className="p-5">
-                            <a href="https://bus-tourism2.vercel.app/">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Bus Travel Company Profile and Management</h5>
-                                <h5 className="text-sm text-red-700">(on going)</h5>
-                            </a>
-                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">React.js</span>
-                            <span className="bg-green-100 text-blue-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-green-900">Tailwind CSS</span>
-                            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">Laravel</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
